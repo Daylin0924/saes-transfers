@@ -2,19 +2,194 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>SAES Transfers</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAES Transfers</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #f7f6f2;
+      color: #333;
+    }
+
+    header {
+      background: #111;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header img {
+      max-width: 180px;
+      margin-bottom: 15px;
+    }
+
+    nav {
+      background: #1a1a1a;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #d4af37;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      color: white;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #b89b2e;
+    }
+
+    .servicios {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 14px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      padding: 15px;
+      border-bottom: 1px solid #ddd;
+      text-align: center;
+    }
+
+    th {
+      background: #111;
+      color: #d4af37;
+    }
+
+    footer {
+      background: #111;
+      color: #d4af37;
+      text-align: center;
+      padding: 25px;
+      margin-top: 50px;
+    }
+
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      padding: 15px 22px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+
+    .whatsapp:hover {
+      background: #1ebe5d;
+    }
+  </style>
 </head>
-<body style="font-family: Arial; text-align:center; background:#f5f5f5; padding:20px;">
 
-  <h1>SAES Transfers</h1>
-  <p>Transporte privado en Tulum</p>
+<body>
 
+<header>
+  <img src="logo.png" alt="SAES Transfers Logo">
+  <p>Transporte privado premium en Tulum y Riviera Maya</p>
+</header>
+
+<nav>
+  <a href="#inicio">Inicio</a>
+  <a href="#servicios">Servicios</a>
+  <a href="#tarifas">Tarifas</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="inicio">
+  <h2>Bienvenidos</h2>
+  <p>
+    En <strong>SAES Transfers</strong> ofrecemos traslados privados con atención personalizada,
+    seguridad y puntualidad para que disfrutes tu viaje desde el primer momento.
+  </p>
+</section>
+
+<section id="servicios">
   <h2>Servicios</h2>
-  <p>Aeropuerto • Hoteles • Tours • Traslados privados</p>
+  <div class="servicios">
+    <div class="card">
+      <h3>✈️ Aeropuerto</h3>
+      <p>Traslados cómodos y puntuales desde y hacia el aeropuerto.</p>
+    </div>
+    <div class="card">
+      <h3>🚘 Viajes locales</h3>
+      <p>Movilidad segura en Tulum y alrededores.</p>
+    </div>
+    <div class="card">
+      <h3>⭐ Servicio privado</h3>
+      <p>Experiencia exclusiva adaptada a tus necesidades.</p>
+    </div>
+  </div>
+</section>
 
+<section id="tarifas">
+  <h2>Tarifas</h2>
+  <table>
+    <tr>
+      <th>Ruta</th>
+      <th>Precio</th>
+    </tr>
+    <tr>
+      <td>Tulum – Aeropuerto</td>
+      <td>Consultar</td>
+    </tr>
+    <tr>
+      <td>Tulum – Playa</td>
+      <td>Consultar</td>
+    </tr>
+    <tr>
+      <td>Servicio personalizado</td>
+      <td>Consultar</td>
+    </tr>
+  </table>
+</section>
+
+<section id="contacto">
   <h2>Contacto</h2>
-  <p>WhatsApp: +52 TU NÚMERO AQUÍ</p>
+  <p>
+    📞 WhatsApp: <strong>+52 990 353 0497</strong><br>
+    📍 Tulum, Quintana Roo
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 SAES Transfers. Todos los derechos reservados.</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/529903530497" target="_blank">
+  WhatsApp
+</a>
 
 </body>
 </html>
